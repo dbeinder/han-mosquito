@@ -1,16 +1,16 @@
 # µHAN mosquito
-A tiny [M-BUS](https://m-bus.com/documentation-wired/04-physical-layer)-powered [ESP32-C3](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf) board to capture data from digital electricity meters. Compatible with [AmsReader](https://github.com/UtilitechAS/amsreader-firmware) firmware.
+A tiny [M-BUS](https://m-bus.com/documentation-wired/04-physical-layer)-powered [ESP32-C3](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf) board to capture data from digital electricity meters. Compatible with [AMS reader](https://github.com/UtilitechAS/amsreader-firmware) firmware.
 
   - Power & flashing via USB-C
   - Power & meter signal via M-BUS (RJ11)
     - Input current limited to 40mA, this is probably only compatible with Kaifa meters
-    - Firmware needs no energy saving, there is enough power for AP mode and OTA firmware upgrade
-  - ESP32-C3-MINI-1 module: 160MHz, 4MB Flash, 400kB RAM
+    - Firmware needs no aggressive WiFi power management, there is enough for AP mode and OTA firmware upgrade
+  - ESP32-C3-MINI-1 module: 160MHz RISC-V core, 4MB Flash, 400kB RAM, 2.4GHz WiFi
   - 1mm² RGB LED
   - Two side-mounted buttons
     - Top: ESP32 reset
     - Bottom: AP mode, hold during reset to flash
-  - Mounted by magnet on the IR port ;)
+  - Mounted by magnet on the IR port
   - Tested on an Austrian (Vbg) Kaifa MA309M
   - Designed in KiCad 7
   
