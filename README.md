@@ -5,13 +5,21 @@ A tiny [M-BUS](https://m-bus.com/documentation-wired/04-physical-layer)-powered 
   - Power & meter signal via M-BUS (RJ11)
     - Input current limited to 40mA, this is probably only compatible with Kaifa meters
     - Firmware needs no energy saving, there is enough power for AP mode and OTA firmware upgrade
-  - ESP32-C3-MINI-1 module: 160MHz, 4MB Flash, 320kB RAM
+  - ESP32-C3-MINI-1 module: 160MHz, 4MB Flash, 400kB RAM
   - 1mm² RGB LED
   - Two side-mounted buttons
-   - Top: Reset
-   - Bottom: AP mode, hold during reset for bootloader
+    - Top: ESP32 reset
+    - Bottom: AP mode, hold during reset to flash
   - Mounted by magnet on the IR port ;)
   - Tested on an Austrian (Vbg) Kaifa MA309M
+  - Designed in KiCad 7
   
-  ![proto-front](https://user-images.githubusercontent.com/342955/226060267-d9ec69e8-2e86-4415-bbc0-5e2663936821.jpg)
-  ![proto-back](https://user-images.githubusercontent.com/342955/226060220-808c2063-8537-4f6c-839b-6f2d49a36215.jpg)
+License: free to use and modify for non-commercial use
+
+###  Prototype pictures
+  
+| ![proto-front](https://user-images.githubusercontent.com/342955/226060267-d9ec69e8-2e86-4415-bbc0-5e2663936821.jpg)  | ![proto-back](https://user-images.githubusercontent.com/342955/226060220-808c2063-8537-4f6c-839b-6f2d49a36215.jpg) |
+| ------------- | ------------- |
+| ![proto-mounted](https://user-images.githubusercontent.com/342955/226061390-f7ff8e88-6779-4742-96a4-bf8edfa9e282.jpg)  |![image](https://user-images.githubusercontent.com/342955/226062623-08615a8e-ff71-4c6f-b636-feafea7a7d91.png) |
+
+
