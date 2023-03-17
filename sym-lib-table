@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/espressif/libraries/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "mosquito")(type "KiCad")(uri "${KIPRJMOD}/mosquito-lib/mosquito.kicad_sym")(options "")(descr ""))
+)
