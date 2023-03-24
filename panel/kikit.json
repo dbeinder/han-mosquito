@@ -1,0 +1,21 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "7mm",
+        "rows": "3",
+        "cols": "4"
+    },
+    "source": {
+        "stack": "4layer"
+    },
+    "tabs": {
+        "type": "annotation",
+        "tabfootprints": "PCM_kikit:Tab"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "tightframe"
+    }
+}
